@@ -82,16 +82,11 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'ubuntu', sans-serif;
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: #3a3a3a;
+
 }
 
 /*
@@ -165,7 +160,7 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
+    width: 813px;
     padding: 40px;
     margin: 20px auto;
 
@@ -175,9 +170,15 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 38px;
     line-height: 1.5;
+    color: #fff;
+    font-weight: 900;
+}
+
+.step h1 {
+    text-align: center;
 }
 
 /*
@@ -213,30 +214,37 @@ a:focus {
     height: 700px;
     padding: 40px 60px;
 
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, .3);
+    background-color: #231f20;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    color: rgb(102, 102, 102);
+    color: #BFBFBF;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+    font-weight: 100;
 }
 
 .slide q {
     display: block;
     font-size: 50px;
     line-height: 72px;
-
     margin-top: 100px;
 }
 
 .slide q strong {
     white-space: nowrap;
+}
+
+.slide h1 {
+    border-left: 10px solid #bd1900;
+    padding-left: 0.5rem;
+    color: #fff;
+    font-weight: 900;
+    text-align: left;
 }
 
 /*
